@@ -31,10 +31,10 @@ body {
   border-radius: 16px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Banner\ Image.png");
-    background-repeat: no-repeat;
-    /* padding er ei option ta shaoda er kaj kore so bhalo vabe dite lagbe*/
-    padding: 125px 220px;
-    margin-top: 50px;
+  background-repeat: no-repeat;
+  /* padding and margin ei option ta shaoda er kaj kore so bhalo vabe dite       lagbe*/
+  padding: 125px 220px;
+  margin-top: 50px;
 }
 .happy-new-year{
   font-family: Merriweather;
@@ -53,6 +53,7 @@ body {
 
 
 /* main styles */
+/* section-1 */
 .all-title{
   display: flex;
   flex-direction: column;
@@ -64,6 +65,8 @@ body {
   font-size: 85px;
   font-weight: bold;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 .holiday{
   color: #FF0000;
@@ -71,7 +74,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   margin-top: 0px;
-
+  margin-bottom: 0px;      
 }
 .categories{
   color: #070211;
@@ -86,5 +89,53 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
 }
+
+/* section */
+.welcome{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+   url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px;
+  padding: 40PX 100PX;
+  margin-top: 0PX;
+  margin-bottom: 120px;
+  margin-right: 39px;
+}
+.party-text{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.party-title{
+  color: #FFFFFF;
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.party-description{
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.btn-party{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  background:none;
+  border: none;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 70px;
+}
+.img-party{
+  margin-top: 0px;
+}
+
+
+
