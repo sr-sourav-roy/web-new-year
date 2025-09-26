@@ -218,8 +218,10 @@ body {
   padding-top: 0px;
   padding-left: 0px; */
 }
-.year-text-logo{
+.year-text-img{
   margin-top: 80px;
+  margin-right: 5px;
+
 }
 .year{
   color: #FF0000;
