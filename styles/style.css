@@ -209,7 +209,7 @@ body {
 }
 .offer-derection{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Inter;
   margin-top: 22px;
@@ -231,7 +231,7 @@ body {
 }
 .year-des{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Inter;
   margin-bottom: 43px;
@@ -285,7 +285,7 @@ body {
 }
 .description-dis{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Inter;
   margin-top: 0px;
@@ -345,7 +345,7 @@ body {
 }
 .product-description{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Inter;
   padding-right: 500px;
@@ -368,4 +368,69 @@ body {
 }
 .box:hover{
   transform: scale(1.1);
+}
+
+/* section_6 styles */
+.mail_sub{
+  background-color: rgba(255, 0, 0, 0.05);
+  height: 600px;
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+.subscribe{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 200px;
+}
+.group-61{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.newsletter{
+  color: rgba(7, 2, 17, 1);
+  font-size: 40px;
+  font-weight: Black;
+  font-family: Merriweather;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+.sub-des{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Inter;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+input[type="text"] {
+  padding: 22px 200px 22px 25px;
+  outline: none;
+  border: 0;
+  border-radius: 25px 0 0 25px;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.3);
+
+}
+input[type="sub"] {
+  padding: 22px 10px 22px 10px;
+  outline: none;
+  border: 0;
+  border-radius: 0 25px 25px 0;
+  background-color: rgba(255, 0, 0, 1);
+  color: rgb(255, 240, 240);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Inter;
+  text-align: center;
+  margin-left: -5px;
+}
+input[type="sub"]:hover {
+  background-color: burlywood;
 }
