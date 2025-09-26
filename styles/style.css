@@ -196,7 +196,7 @@ body {
 .offer{
   color:#FF0000;
   font-size: 24px;
-  font-weight: medium;
+  font-weight: 500;
   font-family: Inter;
 }
 .coming{
@@ -209,7 +209,7 @@ body {
 }
 .offer-derection{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: Inter;
   margin-top: 22px;
@@ -221,7 +221,6 @@ body {
 .year-text-img{
   margin-top: 80px;
   margin-right: 5px;
-
 }
 .year{
   color: #FF0000;
@@ -232,7 +231,7 @@ body {
 }
 .year-des{
   color: rgba(7, 2, 17, 0.6);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: Inter;
   margin-bottom: 43px;
@@ -250,4 +249,75 @@ body {
   margin-right: 70px;
   height: 400px;
   width: 400px;
+}
+
+/* section_5 Discount*/
+.discount{
+  /* height: 980px; */
+  margin-top: 0px;
+  margin-bottom: 120px;
+}
+.sub-discount{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 120px 64px 120px;
+}
+.headline-dis{
+  color: #070211;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.title-dis{
+  color: rgba(7, 2, 17, 1);
+  font-size: 72px;
+  font-weight: Black;
+  font-family: Merriweather;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+.color-holidays{
+  color: #f00;
+}
+.description-dis{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Inter;
+  margin-top: 0px;
+  padding-left: 200px;
+  padding-right: 240px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.offer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 240;
+  margin-bottom: 0px;
+}
+.group-75 {
+  width: 600px;
+  height: 550px;
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: -150px;
+  z-index: 3;
+  top: 10px;
+}
+.group-44 {
+  width: 300px;
+  position: relative;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+.red-line {
+  width: 1200px;
+  margin-top: -2.5px;
 }
